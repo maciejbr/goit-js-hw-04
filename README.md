@@ -1,1 +1,1 @@
-# goit-js-hw-04
+https://maciejbr.github.io/goit-js-hw-04/
