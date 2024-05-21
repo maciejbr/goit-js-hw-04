@@ -1,5 +1,17 @@
 "use strict";
 
+function calcAverageCalories(days) {
+  let totalDays = [];
+  let sumOfDays = 0;
+  for (const day of days) {
+    totalDays.push(day.calories);
+  }
+  for (const i of totalDays) {
+    sumOfDays += i;
+  }
+  return sumOfDays / 7;
+}
+
 console.log(
   calcAverageCalories([
     { day: "monday", calories: 3010 },
